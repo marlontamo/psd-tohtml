@@ -31,7 +31,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(145, 83, 83, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 2; 
 }
 .third-section{
@@ -50,4 +50,16 @@ body{
 }
 .custom-tag{
     padding: 14px;;
+}
+.custom-tag h2{
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+
+}
+.custom-tag p{
+    color:#fff;
+    font-size: 16px;
+    
 }
