@@ -3,19 +3,29 @@ body{
     padding: 0;
     margin: 0 auto;
 }
-.image{
-    background-image: url('./../images/header..JPG');
+.back{
+    background-image: url('./../images/carbg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100% ;
     height:20rem;
-    padding: 20px
-    z-index: 1;
+   
+   
 }
+ .image{
+    background-image: url('./../images/car2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100% ;
+    height:23rem;
+    margin-right: 15px;
+   
+} 
 #overlay{
     position: relative;
-    width: 98%;
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
@@ -37,4 +47,7 @@ body{
     height: 300px;
     background-color: #333;
 
+}
+.custom-tag{
+    padding: 14px;;
 }
